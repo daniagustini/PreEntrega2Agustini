@@ -170,13 +170,11 @@ h3 {
 
 
 main h1{
-    text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 main ul{
-    margin-left: 60px;
     list-style-type:disc;
 }
 
@@ -233,12 +231,13 @@ form input {
 
 .bloqueImg {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .img3 {
-    margin: 10px;
+    margin: 2%;
 }
 
 .img4 {
@@ -251,7 +250,8 @@ form input {
     font-weight: bold;
 }
 
-h2 {
+.aviso__ofertas {
+    font-size: larger;
     color: yellow;
     background: black;
     text-align: center;
