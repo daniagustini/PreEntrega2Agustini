@@ -266,27 +266,35 @@ footer {
     padding: 1%;
 }
 
-footer div {
+.footer__contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 5px;
-    
+    margin-left: 5%;
 }
 
-footer ul{
-    margin-left: 2%;
+.footer__lista{
+    margin-left: 4%;
     list-style-type:square;
-    display: block;
 }
 
-footer nav{
-    display: block;
-    
+.footer__iconos{
+    margin-right: 10%;
+}
+
+@media (max-width: 900px){
+    .footer__iconos{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 footer a{
     color: white;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 footer a:visited {
-    color: lightgrey;
+    color: darkolivegreen;
 }
