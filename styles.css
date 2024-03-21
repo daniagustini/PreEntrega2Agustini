@@ -210,12 +210,28 @@ main label {
 }
 
 form {
-    padding-left: 50px;
+    padding-left: 2%;
 }
 
 form input {
-    width: 300px;
+    width: 400px;
     height: 25px;
+}
+
+form .estiloTextArea {
+    width: 400px;
+    height: 200px;
+}
+
+@media (max-width: 500px){
+    form input {
+        width: 250px;
+        height: 25px;
+    }
+    form .estiloTextArea {
+        width: 250px;
+        height: 250px;
+    }
 }
 
 .botonEnviar {
@@ -241,7 +257,7 @@ form input {
 }
 
 .img4 {
-    margin: 20px 25px 20px 30px;
+    margin: 20px;
 }
 
 .oferta {
