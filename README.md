@@ -6,5 +6,6 @@
 5to: responsive a todas las pages.
 6to: corrección de alineacion vertical de la navbar del header.
 7mo: corrijo errores en readme
+8vo: corrijo errores en link para cargar CV
 
 Considero para responsive pantallas mínimas de 300px, ajustes de media según tamaños propios de diseño de las páginas. La principal diferencia en la presentacion mobile y Pc es que en el header el menú es desplegable desde un botón para mobile, mientras que en pantalla grande los links del menú estan directamente disponibles.
